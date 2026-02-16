@@ -5,6 +5,7 @@
 
 
 Τίτλος Μαθήματος: Ανάλυση Μεγάλων Γεωδεδομένων
+
 Διδάσκων: Λεωνίδας Λιάκος
 
 E-class: [https://eclass.uth.gr/courses/PRD_P_243/](https://eclass.uth.gr/courses/PRD_P_248/)
