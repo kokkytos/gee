@@ -570,3 +570,6 @@ notebook/templates/*.html
 # Temporary files used for testing
 tmp/
 
+output/**/*.tif
+output/**/*.xml
+output/**/*.vrt
