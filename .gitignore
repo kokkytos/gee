@@ -573,3 +573,6 @@ tmp/
 output/**/*.tif
 output/**/*.xml
 output/**/*.vrt
+
+# MyST build outputs
+_build
