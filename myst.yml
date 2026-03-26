@@ -1,11 +1,15 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 60458543-5187-487e-a593-a6fa75ed33d9
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  id: 19d93800-78eb-4714-aad3-9b34a5ccb35d
+  date: 2026-03-26
+  title: "Ανάλυση Μεγάλων Δεδομένων"
+  description: ΠΜΣ
+  keywords: ['Big data']
+  authors:
+    - name: Λεωνίδας Λιάκος
+      affiliations:
+        - ΤΜΧΠΠΑ-ΠΘ
   github: https://github.com/kokkytos/gee
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
@@ -18,8 +22,10 @@ project:
     - file: Lesson4.ipynb
     - file: Lesson5.ipynb
     - file: Lesson6.ipynb
+    
 site:
   template: book-theme
   options:
-  #   favicon: favicon.ico
+    #favicon: favicon.ico
     logo: UTH-logo-greek.jpg
+
