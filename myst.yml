@@ -20,6 +20,6 @@ project:
     - file: Lesson6.ipynb
 site:
   template: book-theme
-  # options:
+  options:
   #   favicon: favicon.ico
-  #   logo: site_logo.png
+    logo: UTH-logo-greek.jpg
