@@ -574,5 +574,11 @@ output/**/*.tif
 output/**/*.xml
 output/**/*.vrt
 
+output/**/*.dbf
+output/**/*.prj
+output/**/*.shp
+output/**/*.shx
+
+
 # MyST build outputs
 _build
