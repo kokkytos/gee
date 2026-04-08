@@ -570,14 +570,8 @@ notebook/templates/*.html
 # Temporary files used for testing
 tmp/
 
-output/**/*.tif
-output/**/*.xml
-output/**/*.vrt
-
-output/**/*.dbf
-output/**/*.prj
-output/**/*.shp
-output/**/*.shx
+output/*
+!output/.gitkeep
 
 
 # MyST build outputs
