@@ -23,6 +23,7 @@ project:
     - file: Lesson5.ipynb
     - file: Lesson6.ipynb
     - file: Lesson7.ipynb
+    - file: Lesson8.ipynb
     
 site:
   template: book-theme
