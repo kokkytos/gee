@@ -1,0 +1,55 @@
+{
+  "taskGroups": [
+    {
+    "taskCount": 100,
+    "parallelism": 20,
+      "taskSpec": {
+        "runnables": [
+          {
+        "container": {
+          "imageUri": "us-central1-docker.pkg.dev/<YOUR_PROJECT_ID>/gini-repo/processor:v1",
+          "volumes": ["/mnt/disks/batch:/mnt/disks/batch"]
+        }
+          }
+        ],
+        "volumes": [
+          {
+            "gcs": {
+              "remotePath": "<YOUR_UNIQUE_BUCKET_NAME>"
+            },
+            "mountPath": "/mnt/disks/batch"
+          }
+        ],
+        "computeResource": {
+          "cpuMilli": 1000,
+          "memoryMib": 1024
+        }
+      }
+    }
+  ],
+
+
+  "allocationPolicy": {
+  "instances": [
+    {
+      "policy": {
+        "provisioningModel": "SPOT",
+        "machineType":"e2-micro"
+      }
+    }
+  ],
+  "network": {
+    "networkInterfaces": [
+      {
+        "network": "projects/<YOUR_PROJECT_ID>/global/networks/default",
+        "subnetwork": "projects/<YOUR_PROJECT_ID>/regions/us-central1/subnetworks/default",
+        "noExternalIpAddress": true
+      }
+    ]
+  },
+  "location": {
+    "allowedLocations": ["regions/us-central1"]
+  }
+},
+  "logsPolicy": { "destination": "CLOUD_LOGGING" }
+}

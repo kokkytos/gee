@@ -24,6 +24,7 @@ project:
     - file: Lesson6.ipynb
     - file: Lesson7.ipynb
     - file: Lesson8.ipynb
+    - file: Lesson9.md
     
 site:
   template: book-theme
