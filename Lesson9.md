@@ -289,7 +289,16 @@ gcloud batch jobs describe $JOB_NAME --location us-central1 --format='value(stat
 ```bash
 gcloud storage cp -r gs://YOUR_UNIQUE_BUCKET_NAME/output/ ~/Desktop/output_gini
 ```
+## Απαραίτητα αρχεία
+Στον παρακάτω σύνδεσμο θα ορισμένα χρήσιμα αρχεία που αφορούν την εκτέλεση του κώδικα:
 
+- το [αρχείο Dockerfile στο GitHub](https://github.com/kokkytos/gee/blob/main/data/google_batch/Dockerfile).
+- το [αρχείο gini.py στο GitHub](https://github.com/kokkytos/gee/blob/main/data/google_batch/gini.py).
+- το [αρχείο job.json στο GitHub](https://github.com/kokkytos/gee/blob/main/data/google_batch/job.json).
+- το [αρχείο process_list.py στο GitHub](https://github.com/kokkytos/gee/blob/main/data/google_batch/process_list.py).
+- το [αρχείο year_fua_list.txt στο GitHub](https://github.com/kokkytos/gee/blob/main/data/google_batch/year_fua_list.txt).
+
+Τα δεδομένα ωστόσο δεν διανέμονται.
 
 ## Σημαντικοί υπερσύνδεσμοι στο google cloud
 
